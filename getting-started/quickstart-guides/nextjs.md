@@ -96,7 +96,9 @@ In your web browser, navigate to `http://localhost:3000/`
 
 You should now see the dummy app created by the Next.js CLI. We can begin our work from here. It should look like this.
 
-![Dummy app](../../.gitbook/assets/next/initial-next.png)
+```
+https://ik.imagekit.io/ikmedia/docs_images/next/initial-next.png
+```
 
 **Install the ImageKit Next.js SDK:**
 
@@ -257,7 +259,9 @@ export default function Home() {
 
 **This is how the output should look now:**
 
-![Rendered the image using a relative path](../../.gitbook/assets/next/1.png)
+```
+https://ik.imagekit.io/ikmedia/docs_images/next/1.png
+```
 
 **Loading image from an absolute path:**
 
@@ -271,7 +275,9 @@ If you have an absolute image path coming from the backend API e.g. `https://www
 
 **The output looks like this:**
 
-![Render image on custom domain via absolute path](../../.gitbook/assets/next/2.png)
+```
+https://ik.imagekit.io/ikmedia/docs_images/next/2.png
+```
 
 ## **Setting ImageKit context for the SDK**
 
@@ -365,7 +371,9 @@ Let’s resize the default image to 200px height and width:
 
 Refresh your browser to get the resized image.
 
-![Resized Image (200x200px)](../../.gitbook/assets/next/3.png)
+```
+https://ik.imagekit.io/ikmedia/docs_images/next/3.png
+```
 
 ### **Quality manipulation**
 
@@ -381,7 +389,9 @@ You can use the [quality parameter](../../features/image-transformations/resize-
 <img alt="Alt text" width="400" height="400" decoding="async" data-nimg="1" src="https://ik.imagekit.io/igi7ywjzdi/tr:q-10/default-image.jpg" style="" loading="lazy" srcset="https://ik.imagekit.io/igi7ywjzdi/tr:q-10/default-image.jpg 1x, https://ik.imagekit.io/igi7ywjzdi/tr:q-10/default-image.jpg 2x">
 ```
 
-![Quality manipulation (q=10)](../../.gitbook/assets/next/4.png)
+```
+https://ik.imagekit.io/ikmedia/docs_images/next/4.png
+```
 
 ### **Crop mode**‌
 
@@ -409,7 +419,9 @@ Let’s now see how [cropping](../../features/image-transformations/resize-crop-
 <img alt="Alt text" width="200" height="300" decoding="async" data-nimg="1" src="https://ik.imagekit.io/igi7ywjzdi/tr:h-300,w-200,cm-extract/default-image.jpg" style="" loading="lazy" srcset="https://ik.imagekit.io/igi7ywjzdi/tr:h-300,w-200,cm-extract/default-image.jpg 1x, https://ik.imagekit.io/igi7ywjzdi/tr:h-300,w-200,cm-extract/default-image.jpg 2x">
 ```
 
-![Crop Mode Extract (200x300px)](../../.gitbook/assets/next/5.png)
+```
+https://ik.imagekit.io/ikmedia/docs_images/next/5.png
+```
 
 ### **Chained transformation**
 
@@ -440,7 +452,9 @@ Let’s try it out by [resizing](../../features/image-transformations/resize-cro
   alt="">
 ```
 
-![Resized and cropped (200x300px)](../../.gitbook/assets/next/6.png)
+```
+https://ik.imagekit.io/ikmedia/docs_images/next/6.png
+```
 
 Now, rotate the image by 90 degrees.
 
@@ -470,7 +484,9 @@ Now, rotate the image by 90 degrees.
   alt="">
 ```
 
-![Resized, then rotated](../../.gitbook/assets/next/7.png)
+```
+https://ik.imagekit.io/ikmedia/docs_images/next/7.png
+```
 
 Let’s flip the order of transformation and see what happens.
 
@@ -500,7 +516,9 @@ Let’s flip the order of transformation and see what happens.
   alt="">
 ```
 
-![Rotated, then resized](../../.gitbook/assets/next/8.png)
+```
+https://ik.imagekit.io/ikmedia/docs_images/next/8.png
+```
 
 ## **Adding overlays**
 
@@ -530,7 +548,9 @@ https://ik.imagekit.io/your_imagekit_id/tr:h-300,w-400,l-text,i-Imagekit,fs-50,l
 
 **Output Image:**
 
-![Overlay text over image](../../.gitbook/assets/text-overlay-image.png)
+```
+https://ik.imagekit.io/ikmedia/docs_images/next/text-overlay-image.png
+```
 
 **Image as overlays**
 
@@ -556,7 +576,9 @@ https://ik.imagekit.io/your_imagekit_id/tr:h-300,w-400,l-image,i-default-image.j
 
 **Output Image:**
 
-![Overlay image over another image](../../.gitbook/assets/image-overlay-image.png)
+```
+https://ik.imagekit.io/ikmedia/docs_images/next/image-overlay-image.png
+```
 
 **Solid color blocks as overlays**
 
@@ -582,7 +604,9 @@ https://ik.imagekit.io/your_imagekit_id/tr:h-300,w-400,l-image,i-ik_canvas,bg-FF
 
 **Output Image:**
 
-![Overlay solid color over image](../../.gitbook/assets/solid-color-overlay-image.png)
+```
+https://ik.imagekit.io/ikmedia/docs_images/next/solid-color-overlay-image.png
+```
 
 ## **Lazy-loading images in Next.js**
 
@@ -867,7 +891,9 @@ export default function Home() {
 
 This is how it looks in the UI:
 
-![Upload Image](../../.gitbook/assets/next/file-upload.png)
+```
+https://ik.imagekit.io/ikmedia/docs_images/next/file-upload.png
+```
 
 **Direct file uploading from the browser**
 
@@ -877,7 +903,9 @@ When you choose a file, the file is immediately uploaded. You can pass optional 
 
 You can verify that file was successfully uploaded by checking the browser console. In case of success, it should print a success message, like this:
 
-![Upload Success Response](../../.gitbook/assets/next/file-upload-success.png)
+```
+https://ik.imagekit.io/ikmedia/docs_images/next/file-upload-success.png
+```
 
 The response object would look similar to this (values may vary):
 
